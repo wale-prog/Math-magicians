@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Math magician
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Project Description.
 
-## Available Scripts
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- JavaScript
+- React
+- HTML
+- CSS
+- Webpack
+- Git & Github
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+No live demo link yet.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**This project is part of a training series to highlight the need for proper documentation, best practices, and writing clean codes with html, css, Javascript and React.**
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Have an IDE installed on your computer to be able to view the code locally.
+- Have a good working knowledge of Git and Github.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
+- Clone the repository with git clone https://github.com/wale-prog/Math-magicians
+- To get the curent working tree, git fetch --all, then checkout to "setup" branch.
+- Finally, display the content of the ./public/index.html by starting the webpack dev server doing the following:
+  - navigate to the root directory with a command line terminal
+  - run 'npm start'
 
-### `npm run eject`
+### Install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- IDE preferrably VScode
+- using command line terminal in the root directory install the following:
+  - node package manager with 'npm init -y'
+  - node modules with npm install 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- For any individual who wishes to practice and master webpack usage, basic HTML,CSS and Javascript
+- For practice of HTML5, CSS and Javascript technologies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
+👤 **Wale Olapetan**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@wale-prog](https://github.com/wale-prog)
+- Twitter: [@Wale_Petan](https://twitter.com/wale_Petan)
+- LinkedIn: [@walepetan](https://www.linkedin.com/in/walepetan/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- Shoutout to [Robertson](https://github.com/bobb-Rob) and [Abdo](https://github.com/Abdo9826) for being amazing.
+- Microverse.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
