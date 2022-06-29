@@ -15,6 +15,12 @@ class Calculator extends Component {
     this.handleClick = this.handleClick.bind(this);
   }    
   
+  handleClick = (event) => {
+    const btnValue = event.target.value;
+    this.setState((prevState) =>({
+      ...calculate(prevState, btnValue),
+    }))
+  }
 
   render() {
     const { total, next, operation } = this.state;
