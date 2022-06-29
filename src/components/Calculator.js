@@ -7,7 +7,6 @@ class Calculator extends Component {
     this.state = {
       total: '',
       next: '',
-      operation: '',
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -21,15 +20,11 @@ class Calculator extends Component {
   }
 
   render() {
-    const { total, next, operation } = this.state;
+    const { total, next } = this.state;
     return (
       <div className="main-container">
         <div className="input">
-          <span>
-            {' '}
-            {next || operation || total || '0'}
-            {' '}
-          </span>
+          <span>{next || total || '0'}</span>
         </div>
         <form className="calc-btns">
           <input type="button" value="AC" onClick={this.handleClick} />
