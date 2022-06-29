@@ -1,37 +1,51 @@
 import { Component } from 'react';
+import calculate from './calculate';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: '',
+      next: '',
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick = (event) => {
+    const btnValue = event.target.value;
+    this.setState((prevState) => ({
+      ...calculate(prevState, btnValue),
+    }));
   }
 
   render() {
+    const { total, next } = this.state;
     return (
       <div className="main-container">
         <div className="input">
-          <span> 0 </span>
+          <span>{next || total || '0'}</span>
         </div>
         <form className="calc-btns">
-          <input type="button" value="AC" />
-          <input type="button" value="+/-" />
-          <input type="button" value="%" />
-          <input type="button" value={'\u00f7'} className="peach" />
-          <input type="button" value="7" />
-          <input type="button" value="8" />
-          <input type="button" value="9" />
-          <input type="button" value={'\u00D7'} className="peach" />
-          <input type="button" value="4" />
-          <input type="button" value="5" />
-          <input type="button" value="6" />
-          <input type="button" value={'\u2212'} className="peach" />
-          <input type="button" value="3" />
-          <input type="button" value="2" />
-          <input type="button" value="1" />
-          <input type="button" value={'\u1429'} className="peach" />
-          <input type="button" value="0" className="zero" />
-          <input type="button" value="." />
-          <input type="button" value={'\u003D'} className="peach" />
+          <input type="button" value="AC" onClick={this.handleClick} />
+          <input type="button" value="+/-" onClick={this.handleClick} />
+          <input type="button" value="%" onClick={this.handleClick} />
+          <input type="button" value="÷" className="peach" onClick={this.handleClick} />
+          <input type="button" value="7" onClick={this.handleClick} />
+          <input type="button" value="8" onClick={this.handleClick} />
+          <input type="button" value="9" onClick={this.handleClick} />
+          <input type="button" value="x" className="peach" onClick={this.handleClick} />
+          <input type="button" value="4" onClick={this.handleClick} />
+          <input type="button" value="5" onClick={this.handleClick} />
+          <input type="button" value="6" onClick={this.handleClick} />
+          <input type="button" value="-" className="peach" onClick={this.handleClick} />
+          <input type="button" value="3" onClick={this.handleClick} />
+          <input type="button" value="2" onClick={this.handleClick} />
+          <input type="button" value="1" onClick={this.handleClick} />
+          <input type="button" value="+" className="peach" onClick={this.handleClick} />
+          <input type="button" value="0" className="zero" onClick={this.handleClick} />
+          <input type="button" value="." onClick={this.handleClick} />
+          <input type="button" value="=" className="peach" onClick={this.handleClick} />
         </form>
       </div>
     );
