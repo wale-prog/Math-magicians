@@ -1,0 +1,12 @@
+.text-container {
+  padding: 0 6rem 0 3rem;
+}
+
+.text-container p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.text-container h3 {
+  margin-bottom: 2rem;
+}
