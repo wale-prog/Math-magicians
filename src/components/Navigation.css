@@ -23,6 +23,12 @@ body {
   border-right: 2px solid;
 }
 
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
 .nav-item a:hover {
   color: rgb(240, 143, 143);
   font-size: 18px;
@@ -30,12 +36,6 @@ body {
 
 .nav-item:last-child {
   border-right: none;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: #000;
-  transition: all 0.3s ease-in-out;
 }
 
 .heading-text {
