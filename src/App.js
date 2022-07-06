@@ -1,19 +1,29 @@
-import React, { Component } from 'react';
-import Calculator from './components/Calculator';
+/* eslint-disable */
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import Calculator from "./components/Calculator";
+import Welcome from "./components/Welcome";
+import Quotes from "./components/Quotes";
+import Navigation from "./components/Navigation";
 
-  render() {
-    return (
-      <div>
-        <Calculator />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Navigation />
+      <Switch>
+        <Route path="/calculator">
+          <Calculator />
+        </Route>
+        <Route path="/quotes">
+          <Quotes />
+        </Route>
+        <Route path="/">
+          <Welcome />
+        </Route>
+      </Switch>
+    </div>
+  );
+};
 
 export default App;

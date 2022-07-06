@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import calculate from './calculate';
+import calculate from '../calculate';
+import './Caculator.css';
 
 const Calculator = () => {
   const [btnInput, setBtnInput] = useState({
