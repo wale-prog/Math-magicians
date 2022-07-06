@@ -7,7 +7,10 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div className="nav-container">
-      <h1>Math Magicians</h1>
+      <NavLink className="heading-text" to="/welcome">
+        Math Magicians
+      </NavLink>
+
       <ul className="nav-list">
         <li className="nav-item">
           <NavLink activeStyle={{ color: "red" }} to="/welcome">

@@ -5,6 +5,7 @@
 
 body {
   background-color: #d3d3d3;
+  color: rgb(72, 33, 33);
 }
 
 .nav-container {
@@ -23,20 +24,25 @@ body {
 }
 
 .nav-item a:hover {
-    color: rgb(240, 143, 143);
-    font-size: 18px;
+  color: rgb(240, 143, 143);
+  font-size: 18px;
 }
 
 .nav-item:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .nav-item a {
   text-decoration: none;
   color: #000;
-  transition: all 0.3s ease-in-out
+  transition: all 0.3s ease-in-out;
 }
 
-.nav-container h1 {
-  padding: 14px 0 14px 0;
+.heading-text {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(72, 33, 33);
+  cursor: pointer;
+  padding: 18px 0 18px 0;
 }
