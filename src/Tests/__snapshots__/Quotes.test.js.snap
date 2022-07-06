@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Quote component Quotes is rendered 1`] = `
+<div
+  className="quote-container"
+>
+  <h3>
+    Quote of the day
+  </h3>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus necessitatibus nostrum ullam aliquam, enim aspernatur
+  </p>
+</div>
+`;
