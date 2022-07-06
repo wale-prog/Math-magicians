@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Navigation Navigation is rendered 1`] = `
+<div
+  className="nav-container"
+>
+  <a
+    aria-current={null}
+    className="heading-text"
+    href="/welcome"
+    onClick={[Function]}
+  >
+    Math Magicians
+  </a>
+  <ul
+    className="nav-list"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        aria-current={null}
+        href="/welcome"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        aria-current={null}
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        aria-current={null}
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</div>
+`;
