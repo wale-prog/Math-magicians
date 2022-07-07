@@ -15,7 +15,9 @@
 
 ## Live Demo
 
-No live demo link yet.
+[Heroku](https://wale-math-magician.herokuapp.com/calculator)
+
+[Netlify](https://wale-math-magician.netlify.app/)
 
 ## Getting Started
 
@@ -30,7 +32,7 @@ No live demo link yet.
 
 - Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
 - Clone the repository with git clone https://github.com/wale-prog/Math-magicians
-- To get the curent working tree, git fetch --all, then checkout to "setup" branch.
+- To get the curent working tree, git fetch --all, then checkout to "dev" branch.
 - Finally, display the content of the ./public/index.html by starting the webpack dev server doing the following:
   - navigate to the root directory with a command line terminal
   - run 'npm start'
